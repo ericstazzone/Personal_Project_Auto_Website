@@ -1,0 +1,32 @@
+html{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+.nav{
+    border-radius: 35px;
+    background: rgb(236, 236, 236);
+    padding: 20px;
+    list-style:none;
+    margin:0px 30% 0px 30%;
+    padding:0;
+    text-align:center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color:black;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: white;
+}
