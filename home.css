@@ -1,19 +1,19 @@
 html{
     background-color: white;
-    font-family: 'Times New Roman', Times, serif
-
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .nav{
-    border-radius: 35px;
+    border-radius: 10px;
     background: rgb(236, 236, 236);
     padding: 20px;
     list-style:none;
-    margin:0px 30% 0px 30%;
+    margin:1% 30% 3% 30%;
     padding:0;
     text-align:center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav li{
@@ -29,4 +29,72 @@ html{
 
 .nav a:hover{
     background-color: white;
+}
+
+.post-container {
+    margin: 1% 15% 1% 15%;  
+    border: 5px solid #333;
+    overflow: auto;
+}
+.post-thumb {
+    float: left;
+}
+.post-thumb img {
+    display: block;
+    height: 213px;
+    width: 320px;
+}
+.post-content {
+    margin-left: 210px
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+ }
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.review-large{
+    margin: auto;  
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width:1000px;
+    text-align: center;
+}
+.review-large-thumb{
+    float: left;
+}
+
+.review-large-thumb img {
+    display: block;
+    height: 213px;
+    width: 320px;
+}
+.review-large-content{
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 }
