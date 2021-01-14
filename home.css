@@ -1,6 +1,6 @@
 html{
     background-color: white;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nav{
@@ -65,7 +65,6 @@ html{
 
 .review-large-content{
     text-align: left;
-    font-family: arial;
     float: left;
     max-width: 320px;
     max-height: 213px;
@@ -176,4 +175,38 @@ html{
 @keyframes fade {
   from {opacity: .9}
   to {opacity: 1}
+}
+
+.footer{
+    background: rgb(241, 241, 241);
+    list-style:none;
+    text-align:center;
+    font-weight: bold;
+    font-size: 14px;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer li{
+    display:inline;
+} 
+
+.footer a{
+    display:inline-block;
+    padding:10px;
+    color:black;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    background-color: white;
+}
+
+.recent{
+    text-align:center;
+    text-decoration: underline;
 }
