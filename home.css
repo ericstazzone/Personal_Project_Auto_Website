@@ -143,6 +143,11 @@ html{
     height:540px;
 }
 
+.mySlides img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -150,13 +155,15 @@ html{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
+  background: rgb(241, 241, 241);
+  border-radius: 8px;
 }
 
 /* Fading animation */
