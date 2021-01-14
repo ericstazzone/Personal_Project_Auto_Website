@@ -163,7 +163,7 @@ html{
   width: 100%;
   text-align: center;
   background: rgb(241, 241, 241);
-  border-radius: 8px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 /* Fading animation */
