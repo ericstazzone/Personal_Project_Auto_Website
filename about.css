@@ -1,0 +1,159 @@
+html{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    border-radius: 10px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    list-style:none;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:0;
+    text-align:center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    width: 600px;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color:black;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px;
+    width: 50%;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    width: 45%;
+    float: right;
+    border-radius: 10px;
+}
+.cardright {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    width: 45%;
+    float: left;
+    border-radius: 10px;
+}
+  
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background: rgb(241, 241, 241);
+    color: black;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h1{
+    text-decoration: underline;
+}
+
+.team{
+    text-decoration: underline;
+    text-align: center;
+}
+  
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+    margin-top: 0px;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background: rgb(241, 241, 241);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+  
+.button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.column img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    color: black;
+    font-size: 26px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.footer{
+    background: rgb(241, 241, 241);
+    list-style:none;
+    text-align:center;
+    font-weight: bold;
+    font-size: 14px;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer li{
+    display:inline;
+} 
+
+.footer a{
+    display:inline-block;
+    padding:10px;
+    color:black;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    background-color: white;
+}

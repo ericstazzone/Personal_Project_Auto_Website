@@ -183,7 +183,10 @@ html{
   from {opacity: .9}
   to {opacity: 1}
 }
-
+.recent{
+    text-align:center;
+    text-decoration: underline;
+}
 .footer{
     background: rgb(241, 241, 241);
     list-style:none;
@@ -211,9 +214,4 @@ html{
 
 .footer a:hover{
     background-color: white;
-}
-
-.recent{
-    text-align:center;
-    text-decoration: underline;
 }
