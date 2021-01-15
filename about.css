@@ -1,4 +1,4 @@
-html{
+html, body{
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
@@ -158,4 +158,13 @@ body {
 
 .footer a:hover{
     background-color: white;
+}
+
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -36px;
+}
+
+.foot, .push {
+    height: 36px;
 }
