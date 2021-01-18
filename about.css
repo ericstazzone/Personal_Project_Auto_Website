@@ -81,6 +81,7 @@ body {
 .about-section h1{
     text-decoration: underline;
     margin-bottom: 0px;
+    color:rgb(126, 41, 223);
 }
 
 .about-section p{
@@ -91,6 +92,7 @@ body {
 .team{
     text-decoration: underline;
     text-align: center;
+    color:rgb(126, 41, 223);
 }
   
 .container {
@@ -104,7 +106,7 @@ body {
 }
 
 .title {
-    color: grey;
+    color:rgb(126, 41, 223);
     margin-top: 0px;
 }
   
