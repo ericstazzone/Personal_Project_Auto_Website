@@ -20,7 +20,7 @@ html, body{
     font-size: 14px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     overflow: auto;
-    width: 600px;
+    width: 650px;
 }
 
 .nav li{
@@ -80,14 +80,15 @@ html, body{
     padding: 50px;
     text-align: center;
     background: rgb(241, 241, 241);
-    color: black;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    min-width: 100%;
 }
 
 .about-section h1{
     text-decoration: underline;
     margin-bottom: 0px;
+    color:rgb(126, 41, 223);
 }
 
 .about-section p{
@@ -232,7 +233,7 @@ html, body{
   }
 
   .infotitle{
-    font-size:16px;
+    font-size:14px;
     color:black;
     margin-top: 0px;
     margin-bottom: 4px;
@@ -240,11 +241,12 @@ html, body{
   }
   
   .info{
-    font-size:20px;
+    font-size:18px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 10px;
     text-align: left;
+    color:rgb(126, 41, 223);
   }
 
   .infotitleP{
@@ -261,6 +263,7 @@ html, body{
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
+    color:rgb(126, 41, 223);
   }
 
   .button {
@@ -275,13 +278,13 @@ html, body{
     background-color:white;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 3px #999;
+    box-shadow: 0 2px #999;
   }
   
-  .button:hover {background-color: #3e8e41}
+  .button:hover {color:rgb(126, 41, 223);}
   
   .button:active {
-    background-color: #3e8e41;
+    color:rgb(126, 41, 223);
     box-shadow: 0 2px #666;
     transform: translateY(2px);
   }
@@ -301,6 +304,7 @@ html, body{
     text-decoration: underline;
     margin-bottom: 0px;
     font-size: 32px;
+    color:rgb(126, 41, 223);
   }
 
   .infoblocktitle p{
@@ -311,6 +315,7 @@ html, body{
   .infoblock h1{
     margin-bottom: 0px;
     font-size: 26px;
+    color:rgb(126, 41, 223);
   }
 
   .infoblock p{
