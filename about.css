@@ -62,7 +62,7 @@ html, body{
 }
 
 .rowbout{
-    width: 60%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -74,12 +74,17 @@ html, body{
 }
   
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 8px 8px;
+    margin: 0px;
+}
+
+img{
+    border-radius: 8px 8px 0 0;
 }
 
 .containerbout {
-    padding: 0 16px;
+    padding: 0 18px;
 }
   
 .containerbout::after, .rowbout::after {
@@ -88,26 +93,47 @@ html, body{
     display: table;
 }
   
+.namebout{
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
 .titlebout {
-    color: grey;
+    color: rgb(126, 41, 223);;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
 }
   
 .buttonbout {
-    border: none;
-    outline: 0;
     display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
+    padding: 10px 14px;
+    font-size: 16px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-weight: none;
+    color: rgb(126, 41, 223);
+    background-color: rgb(248, 248, 248);
+    border: none;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
 }
   
 .buttonbout:hover {
-    background-color: #555;
+    color:black;
 }
-  
+
+.buttonbout:active {
+    color:black;
+    box-shadow: 0 1px rgb(240, 240, 240);
+    transform: translateY(2px);
+}
+
 .footer{
     background: rgb(248, 248, 248);
     list-style:none;
@@ -189,7 +215,11 @@ html, body{
     .infocontent{
         font-size:12px;
     }
-
+    .rowbout{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Desktop Design */
@@ -240,7 +270,11 @@ html, body{
     .buttonconL{
         display: inherit;
     }
-
+    .rowbout{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Mobile Design */
@@ -316,7 +350,13 @@ html, body{
     .columnbout {
         width: 100%;
         display: block;
-      }
+    }
+
+    .rowbout{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     @media screen and (max-width: 660px) {
         .topnav.responsive {position: relative;}
