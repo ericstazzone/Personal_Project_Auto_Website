@@ -62,13 +62,191 @@ html, body{
 
 .row{
     border-radius: 8px;
-    background:red;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);*/
     width: 960px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 720px;
+    float: left;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    position: relative;
+  }
+
+  .mySlides img{
+    width: 720px;
+    height: 405px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 3.5px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 13px;
+    padding: 13px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 8px 8px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .rowslide:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .columnslide {
+    float: left;
+    width: 12.5%;
+  }
+
+  .columnfirst{
+    float: left;
+    width: 12.5%;
+  }
+
+  .columnfirst img{
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .columnlast{
+    float: left;
+    width: 12.5%;
+  }
+  
+  .columnlast img{
+    border-radius: 0 8px 8px 0;
+  }
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-weight: none;
+    color: white;
+    background-color:rgb(126, 41, 223);
+    border: none;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+.button:hover {color:black}
+  
+.button:active {
+    color:black;
+    box-shadow: 0 1px rgb(240, 240, 240);
+    transform: translateY(2px);
+}
+  
+.buttoncon{
+      text-align: right;
+}
+
+.quickinfo{
+    background:white;
+    border-radius: 0 8px 8px 0px;
+}
+
+.infotitle{
+  font-size:14px;
+  color:black;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-align: right;
+}
+
+.info{
+  font-size:18px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: right;
+  color:rgb(126, 41, 223);
+}
+
+.infotitleP{
+  font-size:18px;
+  color:black;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.infoP{
+  font-size:24px;
+  margin-top:0px;
+  font-weight: bold;
+  text-align: right;
+  color:rgb(126, 41, 223);
 }
 
 /* Footer */
@@ -111,10 +289,6 @@ html, body{
     height: 32px;
 }
 
-.test{
-    border-style: dotted;
-}
-
 .row::after {
     content: "";
     clear: both;
@@ -124,6 +298,29 @@ html, body{
 [class*="col-"] {
     float: left;
 }
+
+.infoblocktitle h1{
+    text-decoration: underline;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color:rgb(126, 41, 223);
+  }
+
+  .infoblocktitle p{
+    margin-top: 4px;
+    font-size: 16px;
+  }
+
+  .infoblock h1{
+    margin-bottom: 0px;
+    font-size: 24px;
+    color:rgb(126, 41, 223);
+  }
+
+  .infoblock p{
+    margin-top: 4px;
+    font-size: 16px;
+  }
 
 /* Tablet Design */
 @media only screen and (min-width: 660px){
@@ -139,7 +336,59 @@ html, body{
         max-width: 640px;
         max-height: 180px;
     }
+    .container {
+        position: relative;
+        width: 495px;
+        float: left;
+    }
+    
+    .mySlides img{
+        border-radius: 8px 0px 8px 8px;
+        width: 495px;
+        height: 279px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      }
 
+      .quickinfo{
+        background:white;
+        border-radius: 0 8px 8px 0px;
+    }
+    
+    .infotitle{
+      font-size:12px;
+      color:black;
+      margin-top: 0px;
+      margin-bottom: 2px;
+      text-align: right;
+    }
+    
+    .info{
+      font-size:16px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 8px;
+      text-align: right;
+      color:rgb(126, 41, 223);
+    }
+    
+    .infotitleP{
+      font-size:12px;
+      color:black;
+      text-align: right;
+      margin-bottom: 0px;
+    }
+    
+    .infoP{
+      font-size:18px;
+      margin-top:0px;
+      font-weight: bold;
+      text-align: right;
+      color:rgb(126, 41, 223);
+    }
+
+    .quickinfomobile{
+        display: none;
+    }
 }
 
 /* Desktop Design */
@@ -155,6 +404,58 @@ html, body{
     .row{
         max-width: 960px;
         max-height: 216px;
+    }
+    .container {
+        position: relative;
+        width: 720px;
+        float: left;
+    }
+    
+    .mySlides img{
+        border-radius: 8px 0px 8px 8px;
+        width: 720px;
+        height: 405px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      }
+      .quickinfo{
+        background:white;
+        border-radius: 0 8px 8px 0px;
+    }
+    
+    .infotitle{
+      font-size:16px;
+      color:black;
+      margin-top: 0px;
+      margin-bottom: 4px;
+      text-align: right;
+    }
+    
+    .info{
+      font-size:18px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      text-align: right;
+      color:rgb(126, 41, 223);
+    }
+    
+    .infotitleP{
+      font-size:18px;
+      color:black;
+      text-align: right;
+      margin-bottom: 0px;
+    }
+    
+    .infoP{
+      font-size:24px;
+      margin-top:0px;
+      font-weight: bold;
+      text-align: right;
+      color:rgb(126, 41, 223);
+    }
+
+    .quickinfomobile{
+        display: none;
     }
 }
 
@@ -206,5 +507,79 @@ html, body{
     }
     .about-section{
         margin-bottom: 0px;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    
+    .mySlides img{
+        border-radius: 0;
+        width: 100%;
+        max-height: 306px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .columnfirst img{
+        border-radius: 0;
+      }
+    
+      .columnlast img{
+        border-radius: 0;
+      }
+
+    .quickinfo{
+        display: none;
+    }
+    .quickinfomobile{
+        display: inherit;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infotitlem{
+      font-size:16px;
+      color:black;
+      margin-top: 0px;
+      margin-bottom: 4px;
+      text-align: left;
+    }
+    
+    .infom{
+      font-size:16px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      text-align: left;
+      color:rgb(126, 41, 223);
+    }
+    
+    .infotitlePm{
+      font-size:16px;
+      color:black;
+      text-align: right;
+      margin-bottom: 4px;
+      margin-top: 0;
+    }
+    
+    .infoPm{
+      font-size:24px;
+      margin-top:0px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: right;
+      color:rgb(126, 41, 223);
+    }
+
+    .buttoncon{
+        display: none;
+    }
+
+    .writtenpiece{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto
     }
 }
