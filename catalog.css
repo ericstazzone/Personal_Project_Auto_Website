@@ -10,7 +10,7 @@ html, body{
 }
 
 .topnav {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(240, 240, 240);
     overflow: hidden;
     margin-right: auto;
     margin-left: auto;
@@ -40,7 +40,7 @@ html, body{
 }
 
 .footer{
-    background: rgb(248, 248, 248);
+    background: rgb(240, 240, 240);
     list-style:none;
     text-align:center;
     font-weight: bold;
@@ -81,7 +81,7 @@ html, body{
 .about-section {
     padding: 30px;
     text-align: center;
-    background: rgb(248, 248, 248);
+    background: rgb(240, 240, 240);
     margin-bottom: 10px;
 }
 
@@ -111,7 +111,7 @@ html, body{
   }
 
 .bodystyle{
-    background: rgb(248, 248, 248);
+    background: rgb(240, 240, 240);
     list-style:none; 
     margin-right: auto;
     margin-left: auto;
@@ -157,7 +157,7 @@ html, body{
 
 .row{
     border-radius: 8px;
-    background:rgb(248, 248, 248);
+    background:rgb(240, 240, 240);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     width: 960px;
     height: 216px;
