@@ -133,6 +133,11 @@ img{
     transform: translateY(2px);
 }
 
+.response{
+    font-size: 16px;
+    text-align: center;
+}
+
 .footer{
     background: rgb(240, 240, 240);
     list-style:none;
