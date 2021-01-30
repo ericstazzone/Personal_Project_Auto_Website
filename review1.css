@@ -212,6 +212,10 @@ html, body{
       text-align: right;
 }
 
+.buttonconL{
+  text-align: left;
+}
+
 .quickinfo{
     background:white;
     border-radius: 0 8px 8px 0px;
@@ -319,7 +323,7 @@ html, body{
 
   .infoblock p{
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
 /* Tablet Design */

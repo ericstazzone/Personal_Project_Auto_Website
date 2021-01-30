@@ -133,11 +133,6 @@ img{
     transform: translateY(2px);
 }
 
-.response{
-    font-size: 16px;
-    text-align: center;
-}
-
 .footer{
     background: rgb(240, 240, 240);
     list-style:none;
@@ -183,6 +178,37 @@ img{
     color:rgb(126, 41, 223);
 }
 
+.response{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.question{
+    text-align: center;
+    color:rgb(126, 41, 223);
+    font-size: 20px;
+}
+
+.rowFAQ{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.columnFAQ {
+    float: left;
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+}
+  
+.cardFAQ {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 8px 8px;
+    padding: 4px 4px 4px 4px;
+}
+
 @media only screen and (min-width: 660px){
     .col-t-1 {width: 25%;}
     .col-t-2 {width: 30%;}
@@ -223,6 +249,15 @@ img{
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .rowFAQ{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .columnFAQ {
+        width: 100%;
+        display: block;
     }
 }
 
@@ -278,6 +313,15 @@ img{
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .rowFAQ{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .columnFAQ {
+        width: 100%;
+        display: block;
     }
 }
 
@@ -361,7 +405,16 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
+    .rowFAQ{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .columnFAQ {
+        width: 100%;
+        display: block;
+    }
     @media screen and (max-width: 660px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive a.icon {
