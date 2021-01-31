@@ -33,7 +33,7 @@ html, body{
 
 .topnav a:hover {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     color:rgb(126, 41, 223);
 }
   
@@ -87,7 +87,6 @@ html, body{
   .mySlides img{
     width: 720px;
     height: 405px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   }
 
   .overlay {
@@ -347,10 +346,9 @@ html, body{
     }
     
     .mySlides img{
-        border-radius: 8px 0px 8px 8px;
+        border-radius: 8px 8px 8px 8px;
         width: 495px;
         height: 279px;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
       }
 
       .quickinfo{
@@ -416,10 +414,9 @@ html, body{
     }
     
     .mySlides img{
-        border-radius: 8px 0px 8px 8px;
+        border-radius: 8px 8px 8px 8px;
         width: 720px;
         height: 405px;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
       }
       .quickinfo{
         background:white;
@@ -519,10 +516,10 @@ html, body{
     }
     
     .mySlides img{
-        border-radius: 0;
-        width: 100%;
-        max-height: 306px;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      border-radius: 0px 0px 0 0;
       }
 
       .columnfirst img{
@@ -585,5 +582,9 @@ html, body{
         width: 80%;
         margin-left: auto;
         margin-right: auto
+    }
+
+    .overlay{
+      border-radius: 0;
     }
 }
