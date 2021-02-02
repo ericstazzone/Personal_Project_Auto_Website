@@ -362,7 +362,6 @@ img:hover{
 }
 
 .team{
-    text-decoration: underline;
     text-align: center;
     color:rgb(126, 41, 223);
 }
@@ -414,7 +413,6 @@ img:hover{
 }
 
 .type{
-    text-decoration: underline;
     margin-bottom: 20px;
     font-size: 28px;
     padding-left: 20px;
