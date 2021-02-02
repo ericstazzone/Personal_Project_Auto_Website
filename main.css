@@ -27,7 +27,7 @@ html, body{
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -371,12 +371,20 @@ img:hover{
     font-size: 16px;
     text-align: left;
     padding-left: 5%;
+    margin-top: 0px;
+    padding-right: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .question{
-    text-align: center;
+    text-align: left;
     color:rgb(126, 41, 223);
     font-size: 20px;
+    padding-left: 5%;
+    margin-top: 10px;
+    padding-right: 5%;
+    margin-bottom: 10px;
 }
 
 .rowFAQ{
@@ -395,7 +403,7 @@ img:hover{
     background-color: white;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     border-radius: 8px 8px 8px 8px;
-    padding: 2px 4px 4px 4px;
+    padding: 2px 4px 10px 4px;
 }
 
 /* Catalog */
@@ -437,7 +445,7 @@ img:hover{
 }
 
 .bodystyle a:hover{
-    background-color: white;
+   color: black;
     border-radius: 8px;
 }
 
@@ -465,6 +473,7 @@ img:hover{
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 18px;
+    font-weight: bold;
     text-align: left;
     color:rgb(126, 41, 223);
     margin-left: 10px;
