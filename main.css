@@ -102,7 +102,7 @@ html, body{
 .headline{
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .headline a{
@@ -118,13 +118,14 @@ html, body{
 .subheadline{
     margin-top: 0px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 hr{
     border: 1px solid black;
     border-radius: 8px;
     width: 960px;
+    margin-top: 0px;
 }
 
 /* Home Screen Slideshow Content */
@@ -429,6 +430,8 @@ img:hover{
     font-weight: bold;
     font-size: 14px;
     overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .bodystyle li{
@@ -554,6 +557,11 @@ img:hover{
         border: 1px solid rgb(126, 41, 223);
         border-radius: 8px;
         width: 640px;
+    }
+
+    .bodystyle{
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -737,19 +745,20 @@ img:hover{
     .headline{
         font-size: 18px;
         margin-bottom: 0px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .subheadline{
         font-size: 14px;
         margin-top: 0px;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     hr{
         width: 75%;
         border: 1px solid rgb(126, 41, 223);
+        margin-top: 0px;
     }
 
     .row3{
